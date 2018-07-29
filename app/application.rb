@@ -38,6 +38,9 @@ class Application
   
   def handle_add(item)
     if @@items.include?(item)
+      @@cart << item
       return "#{item} successfully added"
     else
+      return "Couldn't find #{item}"
+    end
 end
