@@ -43,4 +43,5 @@ class Application
     else
       return "Couldn't find #{item}"
     end
+  end
 end
